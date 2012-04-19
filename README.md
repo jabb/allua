@@ -13,6 +13,6 @@ Just stick the files into a directory and have:
 somewhere in your code.
 
 Notes:
- * You must have allegro 5 development libraries installed.
- * `al.al_install_system(al.ALLEGRO_VERSION_INT, nil)` is `AL_INIT()`
+* You must have allegro 5 development libraries installed.
+* `al.al_install_system(al.ALLEGRO_VERSION_INT, nil)` is `AL_INIT()`
 
