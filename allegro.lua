@@ -2,17 +2,17 @@
 
 local ffi = require 'ffi'
 
-ffi.cdef (require 'allegro_h')
-ffi.cdef (require 'allegro_opengl_h')
-ffi.cdef (require 'allegro_acodec_h')
-ffi.cdef (require 'allegro_audio_h')
-ffi.cdef (require 'allegro_color_h')
-ffi.cdef (require 'allegro_font_h')
-ffi.cdef (require 'allegro_image_h')
-ffi.cdef (require 'allegro_memfile_h')
-ffi.cdef (require 'allegro_physfs_h')
-ffi.cdef (require 'allegro_primitives_h')
-ffi.cdef (require 'allegro_ttf_h')
+ffi.cdef (require 'allua.allegro_h')
+ffi.cdef (require 'allua.allegro_opengl_h')
+ffi.cdef (require 'allua.allegro_acodec_h')
+ffi.cdef (require 'allua.allegro_audio_h')
+ffi.cdef (require 'allua.allegro_color_h')
+ffi.cdef (require 'allua.allegro_font_h')
+ffi.cdef (require 'allua.allegro_image_h')
+ffi.cdef (require 'allua.allegro_memfile_h')
+ffi.cdef (require 'allua.allegro_physfs_h')
+ffi.cdef (require 'allua.allegro_primitives_h')
+ffi.cdef (require 'allua.allegro_ttf_h')
 
 ffi.cdef [[
 enum { ALLEGRO_VERSION = 5 };
