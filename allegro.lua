@@ -40,4 +40,6 @@ ffi.load('allegro_ttf', true)
 
 null = ffi.cast('void *', nil)
 
+setfenv(1, setmetatable(_G, {__index = ffi.C}))
+
 return ffi.C
